@@ -36,30 +36,6 @@ Simples. Direto. Útil.
 
 Porque ele funciona exatamente como se fosse um profissional especializado tomando decisões com base em conhecimento prévio.
 
-Um sistema especialista precisa de:
-
-### ✔️ **Base de Conhecimento**
-No nosso caso, é representada pelas regras de pontuação:
-
-```js
-scoring: {
-  '1': { DADOS: 2, PROD: 1 },
-  '2': { FRONTEND: 2, UXUI: 1 },
-  '3': { DEVOPS: 2, QA: 1 },
-  '4': { BACKEND: 2, PROD: 1 }
-}
-Cada alternativa representa um "sintoma" ou característica do usuário.
-
-✔️ Motor de Inferência
-O sistema soma os pontos e identifica qual área tem o maior valor final.
-
-if (valor > maiorScore) {
-    melhorProfissao = key;
-}
-✔️ Interface de Comunicação
-Aqui, a interface é o WhatsApp:
-amigável, acessível, fácil e muito mais natural que um formulário.
-
 📱 Demonstração do funcionamento
 O bot conversa exatamente assim:
 
